@@ -1,0 +1,35 @@
+package com.tushar;
+
+import java.util.Scanner;
+
+public class Employee {
+    
+	 public void details() {
+		 
+		 Scanner scanner= new Scanner(System.in);
+		 
+		 System.out.println("enter your age:");
+		 int age=scanner.nextInt();
+		 
+		 scanner.nextLine();
+		 
+		 System.out.println("enter your name");
+		 String name=scanner.nextLine();
+		 
+		 System.out.println("enter your salary");
+		 double salary=scanner.nextDouble();
+		 
+		 scanner.nextLine();
+		 
+		 System.out.println("enter your address");
+		 String address=scanner.nextLine();
+		 
+		
+		 System.out.println(age+" is valid age");
+		 System.out.println(name+" is valid name");
+		 System.out.println(salary+" is valid salary");
+		 System.out.println(address+" is valid address");
+		 
+		 scanner.close();
+	 }
+}

@@ -1,0 +1,25 @@
+package com.tushar;
+
+public class Person {
+	
+	static String name;
+	
+	public Person(String name) {
+		
+		this.name=name;
+	}
+	
+	public void pName() {
+		
+		System.out.println("person name is "+name);
+	}
+
+	public static void main(String[] args) {
+		
+		  Person person= new Person("hari");
+		  
+		  person.pName();
+
+	}
+
+}
